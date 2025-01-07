@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '渴求内心平静与大智慧的佛教信仰者——寻找生命的真谛', // 英雄区文字
+  STARTER_HERO_TITLE_1: '0渴求内心平静与大智慧的佛教信仰者——寻找生命的真谛', // 英雄区文字
   STARTER_HERO_TITLE_2: '求道众生，得正知见', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '得正知见', // 英雄区按钮
