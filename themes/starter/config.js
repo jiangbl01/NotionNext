@@ -16,7 +16,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_1_TEXT: '得正知见', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93?pvs=4', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '求道', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: '求道ABC', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://amethyst-amusement-570.notion.site/174b1902d95f80d688dae738e4038b11?v=174b1902d95f8175bbca000c79511470&pvs=4', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
