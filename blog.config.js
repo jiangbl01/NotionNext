@@ -12,28 +12,19 @@ const BLOG = {
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
-  APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
-
-  // 创建 <h1> 元素
-	const h1: HTMLHeadingElement = document.createElement('h1');
+  APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模
 	
-	// 创建 <a> 元素
-	const a: HTMLAnchorElement = document.createElement('a');
-	
-	// 设置 <a> 元素的属性
-	a.href = 'https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93';
-	a.target = '_blank';
-	a.style.color = 'blue';
-	a.style.textDecoration = 'none';
-	a.textContent = '佛系人生';  // 设置链接文本
-	
-	// 将 <a> 元素添加到 <h1> 元素中
-	h1.appendChild(a);
-	
-	// 将 <h1> 元素添加到页面中的某个父元素（例如 body）
-	document.body.appendChild(h1);
-	
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'FaHai（法海）', // 您的昵称 例如 tangly1024
+  
+  const AUTHOR = process.env.NEXT_PUBLIC_AUTHOR || (
+  <a
+    href="https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{ color: 'blue', textDecoration: 'none' }}
+  >
+    FaHai（法海）
+  </a>
+);, // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '追求人生真谛的求道者🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://fojiao88.com/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'FaHai, 博客', // 网站关键词 英文逗号隔开
