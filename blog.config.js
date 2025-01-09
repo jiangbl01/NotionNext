@@ -13,12 +13,8 @@ const BLOG = {
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模
-	
-  AUTHOR: string = process.env.NEXT_PUBLIC_AUTHOR || `
-  <a href="https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93" 
-     target="_blank" style="color: blue; text-decoration: none;">
-     FaHai（法海）
-  </a>`;
+
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '<a href="https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93" target="_blank" class="author-link">FaHai（法海）</a>',
   BIO: process.env.NEXT_PUBLIC_BIO || '追求人生真谛的求道者🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://fojiao88.com/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'FaHai, 博客', // 网站关键词 英文逗号隔开
