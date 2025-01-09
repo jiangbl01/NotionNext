@@ -15,24 +15,24 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   // 创建 <h1> 元素
-const h1 = document.createElement('h1');
-
-// 创建 <a> 元素
-const a = document.createElement('a');
-
-// 设置 <a> 元素的属性
-a.href = 'https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93';
-a.target = '_blank';
-a.style.color = 'blue';
-a.style.textDecoration = 'none';
-a.textContent = '佛系人生';  // 设置链接文本
-
-// 将 <a> 元素添加到 <h1> 元素中
-h1.appendChild(a);
-
-// 将 <h1> 元素添加到页面中的某个父元素（例如 body）
-document.body.appendChild(h1);
-
+	const h1: HTMLHeadingElement = document.createElement('h1');
+	
+	// 创建 <a> 元素
+	const a: HTMLAnchorElement = document.createElement('a');
+	
+	// 设置 <a> 元素的属性
+	a.href = 'https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93';
+	a.target = '_blank';
+	a.style.color = 'blue';
+	a.style.textDecoration = 'none';
+	a.textContent = '佛系人生';  // 设置链接文本
+	
+	// 将 <a> 元素添加到 <h1> 元素中
+	h1.appendChild(a);
+	
+	// 将 <h1> 元素添加到页面中的某个父元素（例如 body）
+	document.body.appendChild(h1);
+	
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'FaHai（法海）', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '追求人生真谛的求道者🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://fojiao88.com/', // 网站地址
