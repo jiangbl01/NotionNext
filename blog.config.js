@@ -14,7 +14,6 @@ const BLOG = {
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
-   <h1><a href="https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93" target="_blank"style="color: blue; text-decoration: none;">佛系人生</a></h1>
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'FaHai（法海）', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '追求人生真谛的求道者🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://fojiao88.com/', // 网站地址
