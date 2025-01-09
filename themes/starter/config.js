@@ -13,7 +13,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: '渴求内心平静与佛智慧的佛教信仰者——寻找生命的真谛', // 英雄区文字
   STARTER_HERO_TITLE_2: '求道众生，得正知见', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '得正知见', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: '点击得正知见', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
     'https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93?pvs=4', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: '求道ABC', // 英雄区按钮
