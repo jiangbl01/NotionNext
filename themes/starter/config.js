@@ -247,7 +247,7 @@ const CONFIG = {
   STARTER_CONTACT_EMAIL_TEXT: 'mail@tangly1024.com',
 
   // 嵌入外部表单
-  STARTER_CONTACT_MSG_EXTERNAL_URL: 'https://amethyst-amusement-570.notion.site/FaHai-15cb1902d95f809d9927d79781fd1b93?pvs=4, // 基于NoteForm创建，将留言数据存在Notion中
+  STARTER_CONTACT_MSG_EXTERNAL_URL: ', // 基于NoteForm创建，将留言数据存在Notion中
   //   自定义留言表单，以下几个配置暂时废弃
   //   STARTER_CONTACT_MSG_TITLE: '向我们留言',
   //   STARTER_CONTACT_MSG_NAME: '姓名',
