@@ -176,7 +176,7 @@ const CONFIG = {
   ],
 
   //   FAQ 常见问题模块
-  STARTER_FAQ_ENABLE: true, // 常见问题模块开关
+  STARTER_FAQ_ENABLE: false, // 常见问题模块开关
   STARTER_FAQ_TITLE: '常见问题解答',
   STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
   STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
@@ -198,7 +198,7 @@ const CONFIG = {
     '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
 
   // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+  STARTER_TEAM_ENABLE: false, // 团队成员区块开关
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
